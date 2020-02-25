@@ -8,6 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.example.demo.sys.mapper")
 public class DemoApplication {
 
+	/*
+	Test A Job Run
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
