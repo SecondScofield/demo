@@ -24,6 +24,11 @@ public class Article implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /**
+     * 主键编码
+     */
+    private Long id;
+
+    /**
      * 文章标题
      */
     private String title;

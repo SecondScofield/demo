@@ -24,6 +24,11 @@ public class Category implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /**
+     * 分类编码
+     */
+    private Long id;
+
+    /**
      * 分类名称
      */
     private String categoryName;
