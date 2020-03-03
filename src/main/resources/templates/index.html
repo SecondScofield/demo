@@ -7,5 +7,10 @@
 </head>
 <body>
 你好<b th:text="${name}"></b>,欢迎学习springboot 测试数据，完成并部署
+
+<form action="/blog/user/updatefile" enctype="multipart/form-data" method="post">
+    <input type="file" name="file">
+    <input type="submit">
+</form>
 </body>
 </html>
